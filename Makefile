@@ -4,10 +4,10 @@
 all: build run
 
 build:
-	docker build -t your-image-name .
+	docker build -t task4 .
 
 run:
-	docker run -p 5000:5000 your-image-name
+	docker run -p 5000:5000 task4
 
 push:
-	docker push your-image-name
+	docker push task4
